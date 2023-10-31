@@ -3,9 +3,6 @@ body{
     color: #e9e0d1;
 
     font-family: poppinsregular;
-
-   margin: 0 auto;
-   padding: 0px;
 }
 header{
     display: flex;
@@ -26,8 +23,9 @@ font-weight: 200;
 main{
     display: flex;
     flex-direction: row;
-    margin: 50px auto auto auto;
-
+    margin: auto;
+    padding-top: 70px;
+    max-width: 1500px;
 }
 
 li{
@@ -44,24 +42,38 @@ a:hover{
     color: #ffc870;
     transition: 0.3s all;
 }
-h2{
-    font-size: 56px;
-    line-height: 10px;
+
+.titulos{
     font-family: poppinsbold;
-}
-span{
-    color: #ffc870;
-    font-size: 50px;
+    font-weight: bolder;
+    font-size: 2.1em;
+    text-align: left;
+    line-height: 45px;
+   
 }
 
-p{
-line-height: 20px;
-max-width: 500px;
+span{
+    color: #ffc870;
+}
+
+article{
+    padding: 0px 50px;
+}
+
+main p{
+line-height: normal;
 font-family: poppinslight;
+text-align: justify;
+width: 500px;
+}
+
+aside{
+    ;
 }
 
 img{
-    width: 580px;
+    width: 80%;
+    border: none;
 }
 
 #inscreva-se-btn{
@@ -105,4 +117,7 @@ color: #68462b;
     border-radius: 20px;
     border: none;
     font-size: 15px;
+ }
+
+ aside{
  }
