@@ -1,0 +1,87 @@
+body{
+margin: 0 auto;
+background-color: #33605a;
+color: #e9e0d1;
+font-family: poppinsregular;
+padding: 15px;
+max-width: 1200px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-family: poppins;
+    font-size: 15px;
+}
+span{
+    font-size: 40px;
+    color: #ffc870;
+
+}
+li{
+    display: inline-block;
+    margin: 10px;
+   
+}
+
+a{
+color: #e9e0d1;
+font-size: medium;
+font-family: poppins;
+}
+
+a:hover{
+    color: #ffc870;
+    transition: 0.3s;
+}
+
+h2{
+font-size: xx-large;
+font-family: poppins;
+text-align: center;
+}
+
+input{
+    height: 300px;
+    width: 200px;
+border-radius: 10%;
+background-color: transparent;
+border-color: #ffc870;
+font-size: 47px;
+color: #ffc870;
+display: table-row;
+}
+
+input:hover{
+background-color: #ffc870;
+color: #33605a;
+height: 310px;
+width: 210px;
+transition: 0.3s;
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+img:hover{
+width: 210px;
+height: 310px;
+transition: 0.5s;
+
+}
+
+#myAnimes{
+    display: inline-block;
+
+}
+
+
